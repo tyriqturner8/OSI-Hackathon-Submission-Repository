@@ -1,0 +1,51 @@
+﻿2026-10-22 10:41:22.921	67610		SetValue		toolkit test	REFUSED(no -Approved)
+2026-10-22 10:41:24.322	67610 (0x1081A)	25SEP25_0001Data1Phi0.txt - Notepad	SetValue	AutomationId='15'	toolkit test	TARGET-NOT-FOUND(AutomationId='15')
+2026-10-22 10:41:25.758	67610 (0x1081A)	25SEP25_0001Data1Phi0.txt - Notepad	SetValue	Name='Text editor'	toolkit test	WHATIF
+2026-10-22 10:41:27.391	67610 (0x1081A)	25SEP25_0001Data1Phi0.txt - Notepad	Key	Name='Text editor'	X ctrl+End Enter	WHATIF
+2026-10-22 10:41:29.483	67610 (0x1081A)	25SEP25_0001Data1Phi0.txt - Notepad	Click	Name='Add New Tab'		OK(Invoke)
+2026-10-22 10:42:00.630	67610 (0x1081A)	Untitled - Notepad	SetValue	Name='Text editor'	toolkit test	OK(ValuePattern)
+2026-10-22 10:42:25.716	67610 (0x1081A)	*toolkit test - Notepad	Key	Name='Text editor'	ctrl+End X	OK(SendInput)
+2026-10-22 10:42:39.519	67610 (0x1081A)	*toolkit testX - Notepad	Click	Name='Close Tab'		TARGET-NOT-FOUND(Name='Close Tab')
+2026-10-22 10:43:10.651	67610 (0x1081A)	*toolkit testX - Notepad	SetValue	Name='Text editor'	<empty>	OK(ValuePattern)
+2026-10-22 10:43:12.627	67610 (0x1081A)	Untitled - Notepad	Key	window itself	ctrl+w	OK(SendInput)
+2026-10-22 10:47:17  WM_COMMAND 32789 -> main 133216
+2026-10-22 10:47:37  TAB select hwnd=133168 index=1
+2026-10-22 10:49:43  TABCLICK hwnd=133168 index=1: tab item 1 rect=(0,0,0,0) clicked at client (0,0)
+2026-10-22 10:51:25  LAUNCH XrdWin pid=2516
+2026-10-22 10:51:36  LOGIN: BM_CLICK OK on User dialog 198600 (no password entered)
+2026-10-22 10:51:53  WM_COMMAND 32786 -> main 133104
+2026-10-22 10:52:10  BM_CLICK dialog=198938 id=1292 '&Initialization' (dialog 'Motors Initialization')
+2026-10-22 10:53:40  WM_COMMAND 32789 -> main 133104
+2026-10-22 10:53:59  MOUSE mouse click at (768,420) inputs=2
+2026-10-22 10:54:21  BM_CLICK hwnd=133476 '15 min: If the tube has NOT been used in the last week' (parent 'WarmUp')
+2026-10-22 11:28:46  BM_CLICK(posted) hwnd=526924 'OK' (parent 'XrdWin')
+2026-10-22 11:28:46  BM_CLICK hwnd=133484 'Start' (parent 'High Voltage Control')
+2026-10-22 11:28:50  BM_CLICK(posted) hwnd=330046 '&OK' (parent 'High voltage (Mn Tube)')
+2026-10-22 11:29:06  WM_COMMAND 32838 -> main 133104
+2026-10-22 11:29:23  BM_CLICK(posted) hwnd=657996 '&OK' (parent 'Constants')
+2026-10-22 11:29:44  BM_CLICK(posted) hwnd=723366 '&OK' (parent 'Ready for collection?')
+2026-10-22 11:32:18  WM_COMMAND 32789 -> main 133104
+2026-10-22 11:32:22  BM_CLICK(posted) 'X-Ray OFF' hwnd=723374 in dialog 'High voltage (Mn Tube)'
+2026-10-22 11:32:26  BM_CLICK(posted) 'Cancel' hwnd=526696 (close)
+2026-10-22 11:32:53  WM_COMMAND 32789 -> main 133104
+2026-10-22 11:32:57  MOUSE mouse click at (768,420) inputs=2
+2026-10-22 11:32:59  BM_CLICK(posted) hwnd=592234 '&Cancel' (parent 'High voltage (Mn Tube)')
+2026-10-22 11:33:22  WM_COMMAND 32789 -> main 133104
+2026-10-22 11:33:26  BM_CLICK(posted) 'X-Ray OFF' hwnd=395872 in dialog 'High voltage (Mn Tube)'
+2026-10-22 11:33:30  BM_CLICK(posted) 'OK' hwnd=460494 (close)
+2026-10-22 11:34:03  WM_COMMAND 32791 -> main 133104
+2026-10-22 11:34:07  BM_CLICK(posted) hwnd=918956 '&Cancel' (parent 'MoveMotors')
+2026-10-22 11:47:13  LAUNCH XrdWin pid=14920
+2026-10-22 11:47:29  LOGIN: BM_CLICK OK on User dialog 264020 (no password entered)
+2026-10-22 11:47:45  WM_COMMAND 32786 -> main 198536
+2026-10-22 11:47:49  BM_CLICK(posted) hwnd=264308 '&Initialization' (parent 'Motors Initialization')
+2026-10-22 11:48:33  WM_COMMAND 32789 -> main 198536
+2026-10-22 11:48:37  MOUSE mouse click at (768,420) inputs=2
+2026-10-22 11:48:40  BM_CLICK hwnd=198780 '7 min: If the tube has been used in the last week' (parent 'WarmUp')
+2026-10-22 11:51:11  ARRANGE split=0.5
+2026-10-22 11:51:56  BM_CLICK(posted) hwnd=264256 'Start' (parent 'WarmUp')
+2026-10-22 11:58:39  BM_CLICK(posted) hwnd=1443932 'OK' (parent 'XrdWin')
+2026-10-22 11:58:42  BM_CLICK(posted) hwnd=329764 '&OK' (parent 'High voltage (Mn Tube)')
+2026-10-22 11:58:55  WM_COMMAND 32838 -> main 198536
+2026-10-22 11:58:59  BM_CLICK(posted) hwnd=2164748 '&OK' (parent 'Constants')
+2026-10-22 11:59:13  BM_CLICK(posted) hwnd=788838 '&OK' (parent 'Ready for collection?')
